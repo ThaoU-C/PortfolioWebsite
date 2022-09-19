@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+h1 {
+    margin-top: 40px;
+    color: #31D177;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Bungee', monospace;
+}
+
+body {
+    font-family: 'Assistant', monospace;
+}
+
+p{
+    text-align: center;
+    font-size: small;
+    color: #403E3E;
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    color: #EB4D8F;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #E5D4CE;
+}
+
+.work-img{
+  flex: 0 1 auto;
+  padding: 20px;
+  }
+
+.img-set{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: auto;
+   max-width: 80%;
+}
