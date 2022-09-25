@@ -24,7 +24,7 @@ p{
 nav {
     position: fixed;
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
     float: left;
     margin-top: auto;
 }
@@ -35,8 +35,12 @@ a {
     text-decoration: none;
 }
 
-a:visited {
+a:hover {
     color: #E5D4CE;
+}
+
+.active{
+  color: #E5D4CE;
 }
 
 .work-img{
@@ -50,24 +54,30 @@ a:visited {
    flex-wrap: wrap;
    justify-content: center;
    margin: auto;
-   max-width: 70%;
+   max-width: 60%;
 }
 
-.bio-img {
-    width: 400px;
-    float: left;
-    margin-top: 200px;
-    margin-left: 800px;
+.bio-contain{
+  width: 820px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.about-me{
+.contain {
+    flex: 50%;
+    justify-content: flex-start;
+    padding-top: 300px;
+}
+
+/* .about-me{
     width: 250px;
     text-align: left;
     float: left;
     margin-top: 100px;
     margin-bottom: 100px;
     display: block;
-}
+} */
 
 .footer {
     position: fixed;
@@ -79,8 +89,6 @@ a:visited {
     padding: 10px;
     background-color: #31D177;
     font-size: medium;
-    text-align: center;
+    text-align: left;
 
 }
-
-
