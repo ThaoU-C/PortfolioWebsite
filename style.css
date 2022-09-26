@@ -81,11 +81,14 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    margin-top: 40px;
-    gap: 30px;
+    /* margin-top: 40px; */
     opacity: 90%;
  }
  
+ .work-img2{
+    flex: 0 1 auto;
+    padding-top: 60px;
+    }
 
 .bio-contain{
   width: 830px;
