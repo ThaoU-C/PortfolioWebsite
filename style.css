@@ -42,7 +42,6 @@ nav {
 a {
     color: #e2548f;
     text-decoration: none;
-    font-family: 'Assistant', monospace;
 }
 
 a:hover {
@@ -51,6 +50,7 @@ a:hover {
 
 .e-mail {
     color: #353333;
+    font-family: 'Assistant', monospace;
 }
 
 .active{
