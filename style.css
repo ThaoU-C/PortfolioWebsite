@@ -5,7 +5,6 @@ h1 {
     margin-top: 0;
     color: #24bf67;
     font-size: 20px;
-    /* float: right; */
     font-family: 'Bungee', monospace;
     position: fixed;
     right: 10px;
@@ -49,6 +48,11 @@ a:hover {
     color: #E5D4CE;
 }
 
+.e-mail {
+    color: #353333;
+    text-decoration: none;
+}
+
 .active{
   color: #E5D4CE;
 }
@@ -58,7 +62,7 @@ a:hover {
   }
 
 .img-set{
-   width: 800px;
+   /* width: 800px; */
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
@@ -66,6 +70,7 @@ a:hover {
    margin-top: 40px;
    gap: 30px;
    opacity: 90%;
+   max-width: 52%;
 }
 
 .img-set img:hover{
@@ -80,7 +85,6 @@ a:hover {
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    /* margin-top: 40px; */
  }
 
  .work-img2{
