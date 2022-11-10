@@ -93,7 +93,7 @@ a:hover {
     }
 
 .bio-contain{
-  width: 830px;
+  width: 630px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -101,8 +101,8 @@ a:hover {
 
 .contain {
     flex: 50%;
-    justify-content: flex-start;
-    padding-top: 200px;
+    /* justify-content: flex-start; */
+    padding-top: 150px;
 }
 
 #my-footer {
@@ -116,6 +116,7 @@ a:hover {
     font-size: medium;
     text-align: right;
 }
+
 
 .container-video{
     width: 700px;
