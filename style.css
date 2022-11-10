@@ -93,16 +93,16 @@ a:hover {
     }
 
 .bio-contain{
-  width: 630px;
+  max-width: 45%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  padding-top: 150px;
 }
 
 .contain {
     flex: 50%;
-    /* justify-content: flex-start; */
-    padding-top: 150px;
+    justify-content: flex-start;
 }
 
 #my-footer {
